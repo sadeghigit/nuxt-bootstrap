@@ -8,6 +8,6 @@ export default function (moduleOptions) {
     moduleOptions)
 
   this.addPlugin({
-    src: resolve(__dirname, 'plugin.js'),
+    src: resolve(__dirname, 'plugin.js'), mode: "client"
   })
 }
